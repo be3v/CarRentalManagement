@@ -6,11 +6,12 @@
 
 main {
     flex: 1;
+    background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #ff0081 70%);
 }
 
 .sidebar {
-    /*/background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #ff0081 70%);*/
-    background-color: #ff0081;
+    background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #ff0081 70%);
+    /*background-color: #ff0081;*/
 }
 
 .top-row {

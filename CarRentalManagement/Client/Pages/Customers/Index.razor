@@ -1,0 +1,37 @@
+﻿@page "/customers/"
+@inject HttpClient _client
+@inject IJSRuntime js
+@attribute [Authorize]
+
+<h3 class="card-title">Car Customers</h3>
+<br />
+
+if (customers == null)
+{
+    <div class="alert alert-info">Loading customers...</div>
+}
+
+else
+{
+    <table class="table table-responsive">
+        <thead>
+            <tr>
+                <th>Driving License</th>
+                <th>Contact Number</th>
+                <th>Email Address</th>
+                <th>Actions</th>
+
+            </tr>
+        </thead>
+        
+    </table>
+}
+
+
+
+
+
+@code {
+   
+
+}
